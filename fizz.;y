@@ -1,0 +1,8 @@
+x = ["fizz","quack","buzz","fizz"]
+def fizzCount(x):
+  count = 0
+	for spam in x:
+		if spam == "fizz":
+			count = count + 1
+	return count
+	
